@@ -1,0 +1,27 @@
+{
+	"name": "komicho/laravel-switch-domain",
+	"type": "library",
+	"description": "Switch between all domains of your project on development mode",
+	"keywords": ["php", "packages", "laravel", "switch", "domains", "mpl"],
+	"homepage": "https://github.com/komichoss/laravel-switch-domain",
+	"authors": [
+		{
+			"name": "komicho",
+			"email": "komicho1996@gmail.com",
+			"homepage": "https://komicho.github.io/",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Komicho\\Laravel\\": "/src"
+		}
+	},
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Komicho\\Laravel\\ServiceProvider"
+            ]
+		}
+	}
+}
