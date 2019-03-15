@@ -14,7 +14,7 @@ set_domain('<domain.dev>');
 ```env
 KOMICHO_SWITCH_DOMAIN_TO=<domain.dev>
 ```
-If the value is empty, the domains will work in their default form
+> If the value is empty, the domains will work in their default form
 
 ## How to use
 use `set_domain` method on `domain` method .. such as the following example
